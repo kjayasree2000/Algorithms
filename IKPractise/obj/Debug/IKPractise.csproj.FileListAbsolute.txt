@@ -1,0 +1,7 @@
+C:\Users\jaya-pc\source\repos\IKPractise\IKPractise\bin\Debug\IKPractise.exe.config
+C:\Users\jaya-pc\source\repos\IKPractise\IKPractise\bin\Debug\IKPractise.exe
+C:\Users\jaya-pc\source\repos\IKPractise\IKPractise\bin\Debug\IKPractise.pdb
+C:\Users\jaya-pc\source\repos\IKPractise\IKPractise\obj\Debug\IKPractise.csprojAssemblyReference.cache
+C:\Users\jaya-pc\source\repos\IKPractise\IKPractise\obj\Debug\IKPractise.csproj.CoreCompileInputs.cache
+C:\Users\jaya-pc\source\repos\IKPractise\IKPractise\obj\Debug\IKPractise.exe
+C:\Users\jaya-pc\source\repos\IKPractise\IKPractise\obj\Debug\IKPractise.pdb
