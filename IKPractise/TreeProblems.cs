@@ -125,12 +125,20 @@ namespace IKPractise
             path.Add(root.value);
             if (root.left == null && root.right == null)
             {
-                result.Add(path);
-                path.RemoveAt(path.Count - 1);// backtracking
+                List<int> tempPath = path.Select(x => x).ToList();
+                result.Add(tempPath);
             }
 
-            if (root.left != null) BinaryTreePathhelper(root.left, result, path);
-            if (root.right != null) BinaryTreePathhelper(root.right, result, path);
+            if (root.left != null)
+            {
+                BinaryTreePathhelper(root.left, result, path);
+                path.RemoveAt(path.Count - 1);
+            }
+            if (root.right != null)
+            {
+                BinaryTreePathhelper(root.right, result, path);
+                path.RemoveAt(path.Count - 1);
+            }
             return result;
         }
 

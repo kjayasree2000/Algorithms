@@ -30,11 +30,16 @@ namespace IKPractise
                 }
                 Console.WriteLine("");
             }
-            //List<List<int>> res = new List<List<int>>();
-            //ts.All_Paths_Sum_K(root, 14);
-            //StringsPractise s = new StringsPractise();
-            //int len=s.get_longest_substring_length_with_exactly_two_distinct_chars("ecebaaaaca");
-            //Console.WriteLine(len);
+        //List<List<int>> res = new List<List<int>>();
+        //ts.All_Paths_Sum_K(root, 14);
+        //StringsPractise s = new StringsPractise();
+        //int len=s.get_longest_substring_length_with_exactly_two_distinct_chars("ecebaaaaca");
+        //Console.WriteLine(len);
+
+ //       https://stackoverflow.com/questions/14007405/how-create-a-new-deep-copy-clone-of-a-listt
+ //           List<Book> books_2 = books_1.Select(book => new Book(book.title)).ToList();
+ //           Ashish 4:43 PM
+ //               https://www.linkedin.com/in/ashish-jindal-80751426/				//Pec.ashish @gmail.com
             Console.ReadLine();
 
         }
